@@ -1,0 +1,152 @@
+body{
+	color: #37313D;
+}
+.header{
+	box-sizing: border-box;
+	position: absolute;
+	width: 100%;
+	height: 118px;
+	left: 0px;
+	top: 0px;
+	background: rgba(228, 172, 242, 0.96);
+	border: 1px solid #FFFDFD;
+}
+
+a{
+	color: #000 !important;
+  	text-decoration: none
+}
+.header__nav{
+	position: absolute;
+	height: 45px;
+	left: 267px;
+	top: 76px;
+
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 30px;
+	line-height: 45px;
+}
+
+.header__nav__link{
+	margin: 15px;
+}
+
+.header__nav__link2{
+	margin: 15px;
+}
+
+.header__nav__link3{
+	margin: 15px;
+}
+
+.header__nav__login{
+	padding: 270px;
+}
+
+.header__logo{
+	position: absolute;
+	width: 99px;
+	height: 167px;
+	left: 85px;
+	top: 59px;	
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.header__login{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	left: 1363px;
+	top: 72px;
+}
+
+.main{
+	position: absolute;
+	width: 100%;
+	height: 906px;
+	left: 0px;
+	top: 118px;
+	background: #000 url(bg.jpg);
+	background-repeat: repeat-x;
+	background-color: #37316D;
+}
+
+.main__logo{
+	position: absolute;
+	width: 99px;
+	height: 167px;
+	left: 85px;
+	top: -60px;	
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.main__name{
+	position: absolute;
+	width: 642px;
+	height: 128px;
+	left: 56px;
+	top: 60px;
+	font-family: 'Paprika';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 90px;
+	line-height: 128px;
+	color: white;
+}
+
+.main__device{
+	position: absolute;
+	width: 583px;
+	height: 69px;
+	left: 65px;
+	top: 120px;
+	font-family: 'Pattaya';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 50px;
+	line-height: 69px;
+	color: #FFFFFF;
+}
+
+.main__button{
+	position: absolute;
+	width: 272px;
+	height: 74px;
+	left: 386px;
+	top: 450px;
+}
+
+.main__button__text{
+	position: absolute;
+	width: 188px;
+	height: 46px;
+	left: 428px;
+	top: 374px;
+	font-family: 'Overlock';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 38px;
+	line-height: 46px;
+	color: #000000;
+
+}
+
+.main__store{
+	position: absolute;
+	width: 1283px;
+	height: 80px;
+	left: 82px;
+	top: 822px;
+	background: #ECC0F3;
+}
+.footer{
+	position: absolute;
+width: 1920px;
+height: 739px;
+left: 0px;
+top: 1010px;
+
+background: #37313D;
+}
